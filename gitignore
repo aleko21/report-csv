@@ -1,0 +1,27 @@
+# .gitignore per moodle-reportcsv
+
+# File generati automaticamente — non versionare
+local/reportcsv/.env
+*.csv
+*.log
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Zip di distribuzione (generati al momento della release)
+*.zip
+
+# Moodle
+/config.php
+/moodledata/
